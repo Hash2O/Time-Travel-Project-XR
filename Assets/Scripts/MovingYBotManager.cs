@@ -20,7 +20,9 @@ public class MovingYBotManager : MonoBehaviour
 
         ybotAnim = GetComponent<Animator>();
 
-        agent.SetDestination(waypoints[0].transform.position);
+        index = Random.Range(0, waypoints.Count);
+
+        agent.SetDestination(waypoints[index].transform.position);
 
         ybotAnim.SetBool("isMoving", true);
     }

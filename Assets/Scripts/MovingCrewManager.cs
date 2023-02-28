@@ -7,6 +7,8 @@ public class MovingCrewManager : MonoBehaviour
 {
     private NavMeshAgent agent;
 
+    private AudioSource audioSource;
+
     [SerializeField] List<GameObject> waypoints = new List<GameObject>();
 
     public int index;
@@ -15,6 +17,8 @@ public class MovingCrewManager : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+
+        audioSource = GetComponent<AudioSource>();
 
         agent.SetDestination(waypoints[0].transform.position);
     }
@@ -26,6 +30,16 @@ public class MovingCrewManager : MonoBehaviour
         {
             print("Next waypoint");
             StartCoroutine("NextWaypoint");
+        }
+
+        if (!audioSource.isPlaying)
+        {
+            int aleatoire = Random.Range(1, 101);
+
+            if (aleatoire > 99)
+            {
+                audioSource.Play();
+            }
         }
     }
 
