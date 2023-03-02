@@ -51,6 +51,7 @@ public class MovingCharacterWithCameraDirectionManager : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 ySpeed = jumpSpeed;
+                print("Jump ! " + jumpSpeed);
             }
         }
         else
@@ -79,8 +80,6 @@ public class MovingCharacterWithCameraDirectionManager : MonoBehaviour
 
         //Rotation around the y axis of the camera to set direction of movement
         movementDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * movementDirection;
-
-        
 
         characterAnimator.SetFloat("Input Magnitude", inputMagnitude, 0.05f, Time.deltaTime);
 
