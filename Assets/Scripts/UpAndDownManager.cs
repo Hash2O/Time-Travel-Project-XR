@@ -27,11 +27,11 @@ public class UpAndDownManager : MonoBehaviour
     {
         transform.Translate(upAndDown * Time.deltaTime);
 
-        if (transform.position.y <= lowerLevel)//transform.position.y - _flottaison)
+        if (transform.localPosition.y <= lowerLevel)//transform.position.y - _flottaison)
         {
             upAndDown = new Vector3(0, speed, 0);
         }
-        else if (transform.position.y > higherLevel) //transform.position.y + _flottaison)
+        else if (transform.localPosition.y > higherLevel) //transform.position.y + _flottaison)
         {
             upAndDown = new Vector3(0, - speed, 0);
         }

@@ -166,25 +166,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isStopped
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isDead
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: offset
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -360,7 +360,7 @@ AnimatorState:
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
+  m_CycleOffsetParameterActive: 1
   m_TimeParameterActive: 0
   m_Motion: {fileID: -5154290312366767704, guid: 72fb7df65a14d63449c7aee03d156e0d,
     type: 3}

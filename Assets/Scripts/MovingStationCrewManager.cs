@@ -23,6 +23,8 @@ public class MovingStationCrewManager : MonoBehaviour
         agent.SetDestination(waypoints[0].transform.position);
 
         stationCrewAnim.SetBool("isMoving", true);
+
+        stationCrewAnim.SetFloat("offset", Random.Range(0.0f, 1.0f));
     }
 
     // Update is called once per frame
