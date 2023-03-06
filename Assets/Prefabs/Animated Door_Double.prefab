@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801610751886237324}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.08, y: 0, z: 0}
+  m_LocalPosition: {x: 0.065, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -1580535799172915004, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
-  - {fileID: 2781410738928257789, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
+  - {fileID: 2100000, guid: d2ea756c7971abe448b54250a175e025, type: 2}
   - {fileID: -9003920172004352368, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
   - {fileID: 8161702950221214535, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
   - {fileID: -2588933649015344934, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
@@ -112,7 +112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087385867115046037}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.36792, y: 0.49053383, z: -9.75}
+  m_LocalPosition: {x: 2.37, y: 0.49053383, z: -9.75}
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -373,7 +373,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8094105771781021642}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.07, y: 0, z: 0}
+  m_LocalPosition: {x: 0.08, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -410,7 +410,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: -2588933649015344934, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
   - {fileID: -1580535799172915004, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
-  - {fileID: 2781410738928257789, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
+  - {fileID: 2100000, guid: d2ea756c7971abe448b54250a175e025, type: 2}
   - {fileID: -9003920172004352368, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
   - {fileID: 8161702950221214535, guid: a5ebcb2ef5f9f7e46be8cb48d178ff0f, type: 3}
   m_StaticBatchInfo:
